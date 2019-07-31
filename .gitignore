@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+lottery-win32-x64/
+.vscode/

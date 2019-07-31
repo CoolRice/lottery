@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>抽奖</title>
+    <link rel="stylesheet" href="buttons.css"/>
+    <style>
+        .main {
+            margin: 40px 40px;
+        }
+        .students {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .student-item {
+            width: 70px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .button-wrapper {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 70px;
+        }
+        .stop-button {
+            display: none;
+        }
+        .select-class {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .class-item {
+            margin: 0 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="select-class"></div>
+        <div class="do-lottery">
+            <div class="students"></div>
+            <div class="button-wrapper">
+                <span class="start-button button button-3d button-box button-jumbo">开始</span>
+                <span class="stop-button button button-3d button-box button-jumbo">结束</span>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
